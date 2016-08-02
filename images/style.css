@@ -1,0 +1,367 @@
+body,p {font-family: verdana, arial, helvetica, sans-serif; color: #333333; font-size: 10px; }
+a:link {text-decoration: none; color: #663399; font-weight: 700; }
+a:visited {text-decoration: none; color: #555555; font-weight: 700; }
+a:active {text-decoration: none; color: #990000; font-weight: 700; }
+a:hover {text-decoration: none; color: #000000; font-weight: 700; }
+
+.ninefive {font-family: verdana, arial, helvetica, sans-serif; color: #333333; font-size: 9.5px; }
+.ninefivebold {font-family: verdana, arial, helvetica, sans-serif; color: #333333; font-weight: 700; font-size: 9.5px; }
+.ten {font-family: verdana, arial, helvetica, sans-serif; color: #333333; font-size: 10px; line-height:14px; }
+.ten.input {background-color:#FFFFFF; color: #FFFF00 }
+.tenhome {font-family: verdana, arial, helvetica, sans-serif; color: #FFFFFF; font-size: 10px; line-height:14px; }
+a.tenhome:link {text-decoration: none; color: #FFFFFF; font-weight: 700; }
+a.tenhome:visited {text-decoration: none; color: #FFFFFF; font-weight: 700; }
+a.tenhome:active {text-decoration: none; color: #FFFFFF; font-weight: 700; }
+a.tenhome:hover {text-decoration: none; color: #FFFFFF; font-weight: 700; }
+.eleven {font-family: verdana, arial, helvetica, sans-serif; color: #333333; line-height:14px; font-size: 11px; }
+.eleveninput {font-family: verdana, arial, helvetica, sans-serif; color: #333333; font-size: 11px; }
+.elevenbold {font-family: verdana, arial, helvetica, sans-serif; color: #333333; font-weight: 700; font-size: 11px; }
+.twelve {font-family: verdana, arial, helvetica, sans-serif; color: #333333; font-size: 12px; }
+.twelvebold {font-family: verdana, arial, helvetica, sans-serif; color: #333333; font-weight: 700; font-size: 12px; }
+.eighteen {font-family: verdana, arial, helvetica, sans-serif; color: #000000; font-weight: 700; font-size: 18px; }
+.twentyfour {font-family: verdana, arial, helvetica, sans-serif; color: #FFFFFF; font-weight: 700; font-size: 24px; }
+.bggrey {background-color:#000000; color: #000000 }
+.cartitems {font-family:verdana,arial,helvetica,sans-serif;color:#666666;font-size:9px;font-weight:400;}
+a.cartitems {font-family:verdana,arial,helvetica,sans-serif;color:#666666;font-size:9px;text-decoration: none;font-weight:400;}
+a.cartitems:link {text-decoration:none;font-family:verdana,arial,helvetica,sans-serif;color:#666666;font-size:9px;font-weight:400;}
+a.cartitems:visited {text-decoration:none;font-family:verdana,arial,helvetica,sans-serif;color:#666666;font-size:9px;font-weight:400;}
+a.cartitems:active {text-decoration:none;font-family:verdana,arial,helvetica,sans-serif;color:#666666;font-size:9px;font-weight:400;}
+
+td.cart { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 9.5px; font-weight: 400; color: #333333 }
+td.cart a:link {text-decoration: none; font-weight: 400; color: #663300; }
+td.cart a:visited {text-decoration: none; font-weight: 400; color: #555555; }
+td.cart a:active {text-decoration: none; font-weight: 400; color: #990000; }
+td.cart a:hover {text-decoration: none; font-weight: 400; color: #000000; }
+
+td.contents { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 11px; font-weight: 500; color: #000000 }
+td.contents a:link {text-decoration: none; font-weight: 700; color: #007ac2; }
+td.contents a:visited {text-decoration: none; font-weight: 700; color: #007ac2; }
+td.contents a:active {text-decoration: none; font-weight: 700; color: #ffc300; }
+td.contents a:hover {text-decoration: none; font-weight: 700; color: #ffc300; }
+
+td.register { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; font-weight: 700; color: #FFFFFF }
+td.register a:link {text-decoration: none; font-weight: 700; color: #FFFFFF; }
+td.register a:visited {text-decoration: none; font-weight: 700; color: #FFFFFF; }
+td.register a:active {text-decoration: none; font-weight: 700; color: #FFFFFF; }
+td.register a:hover {text-decoration: none; font-weight: 700; color: #FFFFFF; }
+
+td.aboutus { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 9.5px; font-weight: 700; color: #FFFFFF }
+
+/*controls global company nav bg colors */
+
+.companynavbnr { background-color: #AD1029}
+.companynav { background-color: #CC5454 }
+
+/* mjudkins added 09-11-01 to accomodate dynamic local nav highlighting */
+
+a.company { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; font-weight: 700; color: #FFFFFF; }
+a.company:link {text-decoration: none; font-weight: 700; color: #FFFFFF; }
+a.company:visited {text-decoration: none; font-weight: 700; color: #FFFFFF; }
+a.company:active {text-decoration: none; font-weight: 700; color: #FFFFFF; }
+
+a.companyon { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; font-weight: 700; color: #000000 }
+a.companyon:link {text-decoration: none; font-weight: 700; color: #000000 }
+a.companyon:visited {text-decoration: none; font-weight: 700; color: #000000 }
+a.companyon:active {text-decoration: none; font-weight: 700; color: #000000 }
+
+/* localnav used for white on blue product navigation */
+
+a.localnavon:link { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; font-weight: 700; color: #FFFFFF; vertical-align: top; }
+a.localnavon:visited { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; font-weight: 700; color: #FFFFFF; vertical-align: top; }
+a.localnavon:active { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; font-weight: 700; color: #FFFFFF; vertical-align: top; }
+a.localnavon:hover { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; font-weight: 700; color: #FFFFFF; vertical-align: top; }
+
+a.localnav:link {text-decoration: none; font-weight: 700; color: #FFFFFF; font-size: 10px;}
+a.localnav:visited {text-decoration: none; font-weight: 700; color: #FFFFFF; font-size: 10px;}
+a.localnav:active {text-decoration: none; font-weight: 700; color: #FFFFFF; font-size: 10px;}
+a.localnav:hover {text-decoration: none; font-weight: 700; color: #FFFFFF; font-size: 10px;}
+
+/* vwnav used for verizon wireless training microsite */
+
+a.vwnavon:link { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; font-weight: 700; color: #AD1029; vertical-align: top; }
+a.vwnavon:visited { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; font-weight: 700; color: #AD1029; vertical-align: top; }
+a.vwnavon:active { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; font-weight: 700; color: #AD1029; vertical-align: top; }
+a.vwnavon:hover { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; font-weight: 700; color: #AD1029; vertical-align: top; }
+
+a.vwnav:link {text-decoration: none; font-weight: 700; color: #818181; font-size: 10px;}
+a.vwnav:visited {text-decoration: none; font-weight: 700; color: #818181; font-size: 10px;}
+a.vwnav:active {text-decoration: none; font-weight: 700; color: #818181; font-size: 10px;}
+a.vwnav:hover {text-decoration: none; font-weight: 700; color: #818181; font-size: 10px;}
+
+
+
+/* localnavold used for all other nav besides product catalog and company section */
+
+a.localnavonold:link { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; font-weight: 700; color: #FFFFFF; vertical-align: top; }
+a.localnavonold:visited { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; font-weight: 700; color: #FFFFFF; vertical-align: top; }
+a.localnavonold:active { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; font-weight: 700; color: #FFFFFF; vertical-align: top; }
+a.localnavonold:hover { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; font-weight: 700; color: #FFFFFF; vertical-align: top; }
+
+a.localnavold:link {text-decoration: none; font-weight: 700; color: #333333; font-size: 10px;}
+a.localnavold:visited {text-decoration: none; font-weight: 700; color: #333333; font-size: 10px;}
+a.localnavold:active {text-decoration: none; font-weight: 700; color: #333333; font-size: 10px;}
+a.localnavold:hover {text-decoration: none; font-weight: 700; color: #333333; font-size: 10px;}
+
+/* localmxnav used for special mx100 product page navigation */
+
+a.localmxnavon:link { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; font-weight: 700; color: #FFCC00; vertical-align: top; }
+a.localmxnavon:visited { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; font-weight: 700; color: #FFCC00; vertical-align: top; }
+a.localmxnavon:active { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; font-weight: 700; color: #FFCC00; vertical-align: top; }
+a.localmxnavon:hover { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; font-weight: 700; color: #FFCC00; vertical-align: top; }
+
+a.localmxnav:link {text-decoration: none; font-weight: 700; color: #FFFFFF; font-size: 10px;}
+a.localmxnav:visited {text-decoration: none; font-weight: 700; color: #FFFFFF; font-size: 10px;}
+a.localmxnav:active {text-decoration: none; font-weight: 700; color: #FFFFFF; font-size: 10px;}
+a.localmxnav:hover {text-decoration: none; font-weight: 700; color: #FFFFFF; font-size: 10px;}
+
+td.download { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 9.5px; font-weight: 700; color: #000000 }
+td.download a:link {text-decoration: none; font-weight: 700; color: #663399; }
+td.download a:visited {text-decoration: none; font-weight: 700; color: #663399; }
+td.download a:active {text-decoration: none; font-weight: 700; color: #663399; }
+
+td.footer { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; color: #000000 }
+td.footer a:link {text-decoration: none; font-weight: 400; color: #000000; }
+td.footer a:visited {text-decoration: none; font-weight: 400; color: #000000; }
+td.footer a:active {text-decoration: none; font-weight: 400; color: #000000; }
+
+/* mjudkins added 10-02-01 to accomodate dynamic local nav highlighting */
+
+a.index { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 16px; font-weight: 800; color: #FFFFFF }
+a.index:link {text-decoration: none; font-weight: 800; color: #FFFFFF; }
+a.index:visited {text-decoration: none; font-weight: 800; color: #FFFFFF; }
+a.index:active {text-decoration: none; font-weight: 800; color: #FFFFFF; }
+
+a.indexon { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 16px; font-weight: 800; color: #000000 }
+a.indexon:link {text-decoration: none; font-weight: 800; color: #000000; }
+a.indexon:visited {text-decoration: none; font-weight: 800; color: #000000; }
+a.indexon:active {text-decoration: none; font-weight: 800; color: #000000; }
+
+a.indexon { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 16px; font-weight: 800; color: #000000 }
+a.indexon:link {text-decoration: none; font-weight: 800; color: #000000; }
+a.indexon:visited {text-decoration: none; font-weight: 800; color: #000000; }
+a.indexon:active {text-decoration: none; font-weight: 800; color: #000000; }
+
+/* magazine styles */
+
+td.magazine { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; line-height: 14px; color: #000000 }
+td.magazine a:link {text-decoration: none; font-weight: 400; color: #663399; }
+td.magazine a:visited {text-decoration: none; font-weight: 400; color: #555555; }
+td.magazine a:active {text-decoration: none; font-weight: 400; color: #990000; }
+td.magazine a:hover {text-decoration: none; font-weight: 400; color: #000000; }
+.articletitle {font-family: times, serif, verdana, arial, helvetica, sans-serif; color: #E37E00; font-weight: 400; font-size: 26px; }
+.articlesubtitle {font-family: verdana, arial, helvetica, sans-serif; color: #333333; font-weight: 700; font-size: 11px; }
+.bigwhite { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-style: italic; font-size: 13px; font-weight: 800; color: #FFFFFF }
+
+td.productlist { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 9.5px; font-weight: 400; color: #000000 }
+td.productlist a:link {text-decoration: none; font-weight: normal; color: #663399; }
+td.productlist a:visited {text-decoration: none; font-weight: normal; color: #333333; }
+td.productlist a:active {text-decoration: none; font-weight: normal; color: #000000; }
+td.productlist a:hover {text-decoration: none; font-weight: normal; color: #000000; }
+td.productlistbold { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; font-weight: 700; color: #000000 }
+
+td.projectmodule { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; font-weight: 700; color: #FFFFFF }
+td.projectmodule a:link {text-decoration: none; font-weight: 700; color: #333333; }
+td.projectmodule a:visited {text-decoration: none; font-weight: 700; color: #333333; }
+td.projectmodule a:active {text-decoration: none; font-weight: 700; color: #333333; }
+
+td.sub { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; color: #000000 }
+td.sub a:link {text-decoration: none; font-weight: 400; color: #663399; }
+td.sub a:visited {text-decoration: none; font-weight: 400; color: #555555; }
+td.sub a:active {text-decoration: none; font-weight: 400; color: #990000; }
+td.sub a:hover {text-decoration: none; font-weight: 400; color: #000000; }
+a.sub:link {font-weight: 400; color: #663399; }
+a.sub:visited {font-weight: 400; color: #555555; }
+a.sub:active {font-weight: 400; color: #990000; }
+a.sub:hover {font-weight: 400; color: #000000; }
+
+
+td.submx { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; color: #FFFFFF }
+td.submx a:link {text-decoration: none; font-weight: 400; color: #E9EBE9; }
+td.submx a:visited {text-decoration: none; font-weight: 400; color: #E9EBE9; }
+td.submx a:active {text-decoration: none; font-weight: 400; color: #FFFFFF; }
+td.submx a:hover {text-decoration: none; font-weight: 400; color: #FFFFFF; }
+
+td.subnav { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; color: #000000 }
+td.subnav a:link {text-decoration: none; font-weight: 700; color: #FFFFFF; }
+td.subnav a:visited {text-decoration: none; font-weight: 700; color: #FFFFFF; }
+td.subnav a:active {text-decoration: none; font-weight: 700; color: #FFC300; }
+td.subnav a:hover {text-decoration: none; font-weight: 700; color: #FFC300; }
+
+td.underline { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; color: #000000 }
+td.underline a:link { text-decoration: underline; font-weight: 400; color: #663399; }
+td.underline a:visited { text-decoration: underline; font-weight: 400; color: #555555; }
+td.underline a:active { text-decoration: underline; font-weight: 400; color: #990000; }
+td.underline a:hover { text-decoration: underline; font-weight: 400; color: #000000; }
+
+td.boldwhitehead { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 11px; color: #FFFFFF }
+td.boldwhitehead a:link {text-decoration: none; font-weight: 700; color: #E9EBE9; }
+td.boldwhitehead a:visited {text-decoration: none; font-weight: 700; color: #E9EBE9; }
+td.boldwhitehead a:active {text-decoration: none; font-weight: 700; color: #FFFFFF; }
+td.boldwhitehead a:hover {text-decoration: none; font-weight: 700; color: #FFFFFF; }
+
+td.boldwhitehead2 { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; color: #FFFFFF }
+td.boldwhitehead2 a:link {text-decoration: none; font-weight: 700; color: #E9EBE9; }
+td.boldwhitehead2 a:visited {text-decoration: none; font-weight: 700; color: #E9EBE9; }
+td.boldwhitehead2 a:active {text-decoration: none; font-weight: 700; color: #FFFFFF; }
+td.boldwhitehead2 a:hover {text-decoration: none; font-weight: 700; color: #FFFFFF; }
+
+td.whitepress { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-size: 10px; color: #FFFFFF }
+td.whitepress a:link {text-decoration: none; font-weight: 700; color: #E9EBE9; }
+td.whitepress a:visited {text-decoration: none; font-weight: 700; color: #E9EBE9; }
+td.whitepress a:active {text-decoration: none; font-weight: 700; color: #FFFFFF; }
+td.whitepress a:hover {text-decoration: none; font-weight: 700; color: #FFFFFF; }
+
+td.whitepressbold { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-weight: 700; font-size: 10px; color: #FFFFFF }
+td.whitepressbold a:link {text-decoration: none; font-weight: 700; color: #E9EBE9; }
+td.whitepressbold a:visited {text-decoration: none; font-weight: 700; color: #E9EBE9; }
+td.whitepressbold a:active {text-decoration: none; font-weight: 700; color: #FFFFFF; }
+td.whitepressbold a:hover {text-decoration: none; font-weight: 700; color: #FFFFFF; }
+
+td.whitepressboldlarge { font-family: verdana, arial, helvetica, sans-serif; text-decoration: none; font-weight: 700; font-size: 12px; color: #FFFFFF }
+td.whitepressboldlarge a:link {text-decoration: none; font-weight: 700; font-size: 12px; color: #E9EBE9; }
+td.whitepressboldlarge a:visited {text-decoration: none; font-weight: 700; font-size: 12px; color: #E9EBE9; }
+td.whitepressboldlarge a:active {text-decoration: none; font-weight: 700; font-size: 12px; color: #FFFFFF; }
+td.whitepressboldlarge a:hover {text-decoration: none; font-weight: 700; font-size: 12px; color: #FFFFFF; }
+
+td.ltpurple { background-color: #C2A8D3; text-align: center; }
+td.dkpurple { background-color: #9B86A9; text-align: center; }
+td.ltyellow { background-color: #FFE17F; text-align: center; }
+td.dkyellow { background-color: #CCB466; text-align: center; }
+td.ltgreen { background-color: #C0D57F; text-align: center; }
+td.dkgreen { background-color: #9AAA66; text-align: center; }
+td.ltorange { background-color: #FFB27F; text-align: center; }
+td.dkorange { background-color: #CC8E66; text-align: center; }
+td.ltgray { background-color: #DEDEE0; text-align: center; }
+td.dkgray { background-color: #B2B2BE; text-align: center; }
+td.lttitle { background-color: #FFFFFF; vertical-align: middle; font-size: 9.5px; font-weight: 700; color: #333333; }
+td.dktitle { background-color: #CCCCCC; vertical-align: middle; font-size: 9.5px; font-weight: 700; color: #333333; }
+
+/* where to buy styles */
+
+td.title {font-family: verdana, arial, helvetica, sans-serif; font-weight: 700; color: #333333; font-size: 12px; }
+td.subtitle {font-family: verdana, arial, helvetica, sans-serif; font-weight: 700; color: #CC0033; font-size: 11px; }
+td.subtitlestate {font-family: verdana, arial, helvetica, sans-serif; font-weight: 400; color: #333333; font-size: 10px; font-style: italic; }
+
+.black {font-family: verdana, arial, helvetica, sans-serif; color: #000000; font-size: 11px; }
+.blacktwelve {font-family: verdana, arial, helvetica, sans-serif; color: #000000; font-size: 12px; }
+.blackbold {font-family: verdana, arial, helvetica, sans-serif; color: #000000; font-weight: 700; font-size: 10px; }
+.blackboldsmall {font-family: verdana, arial, helvetica, sans-serif; color: #000000; font-weight: 700; font-size: 9.5px; }
+.redbold {font-family: verdana, arial, helvetica, sans-serif; color: #CC0000; font-weight: 700; font-size: 9.5px; }
+.bold {font-family: verdana, arial, helvetica, sans-serif; color: #333333; font-weight: 700; font-size: 10px; }
+
+form.countryselector { margin-bottom: 0px; border-width: 0px; padding-bottom: 0px; border-bottom-width: 0px; }
+select.dropdown { margin-bottom: 0px; padding-bottom: 0px; font-family: verdana, arial, helvetica, sans-serif; font-size: 10px; font-weight: 400; background-color:#CCCCCC; width: 180px;}
+select.compatibilitydrop { margin-bottom: 0px; padding-bottom: 0px; font-family: verdana, arial, helvetica, sans-serif; font-size: 10px; font-weight: 400; background-color:#CCCCCC; width: 135px;}
+select.dropdownwide { margin-bottom: 0px; padding-bottom: 0px; font-family: verdana, arial, helvetica, sans-serif; font-size: 10px; font-weight: 400; background-color:#CCCCCC; width: 400px;}
+select.finderdropdown { margin-bottom: 0px; padding-bottom: 0px; font-family: verdana, arial, helvetica, sans-serif; font-size: 10px; font-weight: 400; background-color:#DEDEE0; width: 190px;}
+select.dropdowntoll { margin-bottom: 0px; padding-bottom: 0px; font-family: verdana, arial, helvetica, sans-serif; font-size: 10px; font-weight: 400; background-color:#CCCCCC; width: 150px;}
+select.mx100 { margin-bottom: 0px; padding-bottom: 0px; font-family: verdana, arial, helvetica, sans-serif; font-size: 10px; font-weight: 400; background-color:#FFFFFF; width: 120px;}
+select.boothloaner {margin-bottom: 0px; padding-bottom: 0px; font-family: verdana, arial, helvetica, sans-serif; font-size: 10px; font-weight: 400; background-color:#FFFFFF;width:50px;}
+select.prodreg { margin-bottom: 0px; padding-bottom: 0px; font-family: verdana, arial, helvetica, sans-serif; font-size: 10px; font-weight: 400; background-color:#DEDEE0; width: 150px;}
+.radiofooter { background: #818181; color: #000000; }
+.formButton 
+{
+	height:auto;
+	display:inline;
+	margin:0 0 12px 0;
+	BACKGROUND-COLOR: #0759be;
+	COLOR: white;
+	FONT-WEIGHT: bolder;
+}
+
+.sectionTitle {
+	display:block;
+	clear:both;
+	margin: 0 0 10px 0;
+	padding: 2px 0 2px 5px;
+	background: #007ac2;
+	font-size:11px;
+	color:#FFFFFF;
+	border-bottom:1px solid #ccc;
+	text-align:center;
+	width:800px;
+}
+
+h4{
+display:block;
+	clear:both;
+	margin: 0 0 10px 0;
+	padding: 2px 0 2px 5px;
+	background: #e7e7e7;
+	font-size:11px;
+	color:#000000;
+	border-bottom:1px solid #ccc;
+	text-align:center;
+	width:800px;
+}
+
+.grey {font-family: verdana, arial, helvetica, sans-serif; color: #333333; font-weight: 400; font-size: 11px; }
+.greybold {font-family: verdana, arial, helvetica, sans-serif; color: #333333; font-weight: 700; font-size: 11px; }
+.ninebold {font-family: verdana, arial, helvetica, sans-serif; color: #333333; font-weight: 700; font-size: 9.5px; }
+.price {font-family: verdana, arial, helvetica, sans-serif; color: #000000; font-weight: 700; font-size: 12px; }
+.greyprice {color: #666666; }
+.white {font-family: verdana, arial, helvetica, sans-serif; color: #FFFFFF; font-weight: 600; font-size: 13px; }
+.whitebold {font-family: verdana, arial, helvetica, sans-serif; color: #FFFFFF; font-weight: 700; font-size: 10px; }
+.purplebold {font-family: verdana, arial, helvetica, sans-serif; color: #655587; font-weight: 700; font-size: 10px; }
+.status {font-family: verdana, arial, helvetica, sans-serif; color: #000000; font-size: 10px; }
+.statusbold {font-family: verdana, arial, helvetica, sans-serif; color: #000000; font-weight: 700; font-size: 10px; }
+.select { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; background-color:#FFFFFF; clip:  rect()}
+
+td.pfinder { font-family: verdana, arial, helvetica, sans-serif; text-decoration: underline; font-size: 10px; line-height: 12px; color: #333333 }
+td.pfinder a:link {text-decoration: underline; font-weight: 400; color: #666666; }
+td.pfinder a:visited {text-decoration: underline; font-weight: 400; color: #666666; }
+td.pfinder a:active {text-decoration: underline; font-weight: 400; color: #663399; }
+td.pfinder a:hover {text-decoration: underline; font-weight: 400; color: #333333; }
+td.pfdesc { font-family: verdana, arial, helvetica, sans-serif; font-size: 11px; line-height: 13px; color: #333333; font-style: italic; font-weight: 700;}
+
+td.pfstyle a:link {text-decoration: none; font-weight: 400; color: #333333; }
+td.pfstyle a:visited {text-decoration: none; font-weight: 400; color: #333333; }
+td.pfstyle a:active {text-decoration: none; font-weight: 400; color: #333333; }
+td.pfstyle a:hover {text-decoration: none; font-weight: 400; color: #333333; }
+
+td.pfstylegrey a:link {text-decoration: none; font-weight: 400; color: #999999; }
+td.pfstylegrey a:visited {text-decoration: none; font-weight: 400; color: #999999; }
+td.pfstylegrey a:active {text-decoration: none; font-weight: 400; color: #999999; }
+td.pfstylegrey a:hover {text-decoration: none; font-weight: 400; color: #999999; }
+
+a.viewcart:link {text-decoration: underline; font-weight: 700; color: #333333; font-size: 12px;}
+a.viewcart:visited {text-decoration: underline; font-weight: 700; color: #333333; font-size: 12px;}
+a.viewcart:active {text-decoration: underline; font-weight: 700; color: #333333; font-size: 12px;}
+a.viewcart:hover {text-decoration: underline; font-weight: 700; color: #333366; font-size: 12px;}
+
+.msg{
+
+    height: 24px;
+    margin: 10px;
+   
+    float: left;
+    width: 876px;
+    text-align: left;	
+}
+.msg span{
+	padding-left:40px;
+	font-weight:bold;
+	padding-top:4px;
+	float:left;
+	
+}
+.success{
+	 border: 1px solid #000000;
+	background-color: #99ff99;
+	background-image: url(../images/tick.png);
+background-repeat: no-repeat;	
+background-position: 10px;
+background-size: 18px;
+	
+}
+.error{
+	 border: 1px solid #000000;
+	background-color: #ff6666;
+	background-image: url(../images/cross.png);
+	background-repeat: no-repeat;	
+	background-position: 10px;
+	background-size: 18px;
+	
+}
+
+

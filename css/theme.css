@@ -1,0 +1,154 @@
+.theme
+{
+    COLOR: #000000;
+    BACKGROUND-COLOR: #003c78;
+}
+.themeText
+{
+    COLOR: #003c78;
+}
+.themeBack
+{
+    COLOR: white;
+    BACKGROUND-COLOR: #000000;
+}
+.themeBackText
+{
+    FONT-SIZE: 1em;
+    COLOR: white;
+    FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+.themeBackText2
+{
+    FONT-SIZE: 1em;
+    COLOR: red;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+.themeBackArrow
+{
+    FONT-SIZE: 0.9em;
+}
+.linkColour
+{
+    COLOR: #000044;
+}
+.tableFormCell
+{
+    COLOR: white;
+    padding: 0px 0px;
+    vertical-align: top;
+    BACKGROUND-COLOR: #003c78;
+}
+.tableHeaderCell
+{
+    COLOR: black;
+    BACKGROUND-COLOR: #e4e4f5;
+}
+.tableInputFormCell
+{
+    COLOR: #000000;
+    BACKGROUND-COLOR: #003c78;
+}
+.tableInputFormCell2
+{
+    COLOR: #000000;
+    BACKGROUND-COLOR: #ffffff;
+}
+.tableMouseOutCell
+{
+    CURSOR: pointer;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #eeeeee;
+}
+.tableMouseOverCell
+{
+    CURSOR: pointer;
+    COLOR: white;
+    BACKGROUND-COLOR: #edc15a;
+}
+
+.headerFont
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 1.5em;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+.headerFont2
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 0.7em;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+.calenderColor
+{
+	BACKGROUND-COLOR: #003c78;
+}
+.errorMessageBox
+{
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 0.7em;
+	COLOR: #FF0000;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	border:solid 1px #FFD200;
+	background-color: #FFFED6;
+	width:580px;
+	padding-top:15px;
+	padding-bottom:15px;
+	text-align:center;
+	margin-right:auto;
+	margin-left:auto; 
+}
+.successMessageBox
+{
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 0.7em;
+	COLOR: #000000;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	border:solid 1px #FFD200;
+	background-color: #FFFED6;
+	width:580px;
+	padding-top:15px;
+	padding-bottom:15px;
+	text-align:center;
+}
+input.buttonNormal {
+  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size: 0.7em;
+  color: #000000;
+  background-color: #e4e4f5;
+  border: medium none;
+  width:120px;
+  height:29px;
+  cursor: pointer;
+}
+
+input.buttonNormal#Back {
+  padding-left:30px;
+}
+
+input.buttonNormal#AddNew {
+  padding-right:30px;
+}
+input.buttonNormal#Install {
+  padding-right:30px;
+}
+input.buttonNormal#Uninstall {
+  padding-right:30px;
+}
+input.buttonNormal#Print {
+  padding-right:30px;
+}
+input.buttonNormal#Forward {
+  padding-right:30px;
+}
+input.buttonNormal#Processing {
+  padding-right:30px;
+}
+input.buttonNormal#ProcessingPreload {
+  display:none;
+}
+input.buttonNormal#Delete {
+  padding-right:30px;
+}

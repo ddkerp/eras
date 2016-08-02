@@ -1,0 +1,99 @@
+
+#topbar{
+position:absolute;
+visibility: hidden;
+z-index: 100;
+
+}
+
+#leftBar{
+position:absolute;
+z-index: 1000;
+left:40;
+top:142;
+}
+
+
+table,tr
+{	border:1px solid;
+	border-color:#0330A1;
+	
+}
+.pad
+{
+padding-left:0.48em;
+padding-right:0.48em;
+text-align:center;
+border:1px solid white;
+font-family:Courier New;
+font-size:8pt;
+}
+
+.pad2
+{
+padding-left:0.3em;
+padding-right:0.3em;
+text-align:center;
+border:1px solid white;
+font-family:Courier New;
+font-size:10pt;
+}
+.pS
+{
+padding-left:0.4em;	
+padding-right:0.4em;
+text-align:center;
+}
+
+a{
+cursor:pointer;
+font-weight:normal;
+font-size:10pt;
+font-family:courier new;
+}	
+
+.imgSlider
+{
+position:absolute;
+left:75px;
+}
+.sHd
+{
+	font-size:10pt;
+	font-weight:normal;
+	color:navy;
+	font-family:courier new;
+}
+td
+{
+	text-align:center;
+}
+/* p tag backlog & forecast */
+.pBF
+{
+font-size:8pt;
+font-weight:normal;
+}
+/* resource name */
+.rN
+{
+color:navy;
+}
+/* p color white */
+.pW
+{
+color:#ffffff;
+}
+/* border 1 px */
+.br1
+{
+border:1px;
+text-align:center;
+}
+
+.br0
+{
+border:0px;
+text-align:center;
+}
+

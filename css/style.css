@@ -1,0 +1,248 @@
+/* CSS Document */
+body
+{
+margin: 0px;
+padding: 0px;
+background-color: #00555A;
+}
+.sideborder
+{
+border-left: 1px solid #888D82;
+border-right: 1px solid #888D82;
+padding-left: 13px;
+padding-right: 13px;
+}
+.headertop_bottom
+{
+border-bottom: 1px solid #A9A9A9;
+border-top: 1px solid #A9A9A9;
+}
+.header {
+	background-image: url('../images/header.jpg');
+	background-repeat: no-repeat
+}
+.menuboxout
+{
+border: 1px solid #FFFFFF;
+padding-left: 8px;
+padding-right: 8px;
+}
+.menuboxinside
+{
+border: 1px solid #1C2724;
+background-image: url('../images/menu_bg.gif');
+background-repeat: repeat-x
+}
+.home_menu_bg
+{
+background-image:url('../images/home_bg.gif');
+background-repeat: repeat-x;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 27px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFFFF;
+	text-decoration: none
+}
+.menutext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 27px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.whitetext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 18px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.menutext:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 27px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFFFF;
+	text-decoration: underline;
+	}
+	.foodermenutop_bottom_line
+	{
+	border-top: 1px solid #A6A8A8;
+	border-bottom: 1px solid #A6A8A8;
+	background-image: url('../images//foodermenubg.gif');
+	background-repeat: repeat-x
+	}
+	.foodertext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	line-height: 27px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #3F4040;
+	text-decoration: none;
+}
+.foodertext:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	font-style: normal;
+	line-height: 27px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #222222;
+	text-decoration: underline;
+	}
+	.bodytext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	line-height: 14px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #3E4349;
+	text-decoration: none;
+	text-align: justify;
+}
+
+	.butgate {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 14px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	text-align:center;
+	color: white;
+	WIDTH: 80px;
+	HEIGHT: 30px;
+	text-decoration: none;
+	
+	BACKGROUND-COLOR: #0E6570;
+}
+.newstext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	line-height: 14px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #1b1b1b;
+	text-decoration: none;
+	text-align: justify;
+}
+	.redtext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	line-height: 18px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #B43405;
+	text-decoration: none;
+	text-align: justify;
+}
+.blktext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	line-height: 18px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	
+	text-decoration: none;
+	text-align: justify;
+}
+	.bluetext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	line-height: 22px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #244B6F;
+	text-decoration: none;
+	text-align: justify;
+}
+
+.welcome_body {
+background-image:url('../images/welcome_home.jpg');
+background-repeat: no-repeat
+}
+.login_body {
+background-image:url('../images/welcome_home.jpg');
+background-repeat: no-repeat
+}
+.welcometext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 09px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #325800;
+	text-decoration: none;
+}
+.welcometext:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #70C007;
+	text-decoration: underline;
+	}
+	.bodysidebar
+	{
+	border-left: 1px solid #989898;
+	border-right: 1px solid #989898;
+	}
+
+.newssidebar
+	{
+	border-left: 1px solid #88A35C;
+	border-right: 1px solid #88A35C;
+	padding:0px;
+	}
+	.img
+	{
+	border: 1px solid #B8B8B8;
+	}.submit {
+	background-image: url('../images/sbumit.gif');
+	background-repeat: no-repeat
+}
+.butAnchor
+{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+border:thin solid;
+font-size: 9px;
+padding:0px;
+background-color:#DFFDFF;
+/*font-weight:bolder;*/
+}
+.sty{ display: block; }

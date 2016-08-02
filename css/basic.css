@@ -1,0 +1,384 @@
+INPUT,select,textarea {
+font-family:verdana,arial;
+font-size:11px;
+ color: #3333FF  ;
+ font-weight:bold;
+}
+body{
+background: #FFFFB9;
+}
+
+TD
+{
+    FONT-SIZE: 11px;
+    COLOR:#272525;
+    FONT-FAMILY: Verdana, Arial Cyr, Tahoma, Arial;  
+}
+
+.disc
+{
+    FONT-SIZE: 11px;
+   color:#0051C6 ;
+    FONT-FAMILY: Verdana, Arial Cyr, Tahoma, Arial;  
+	font-weight:bold;
+}
+.header1
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 13pt;
+    COLOR: #0051C6;
+}
+.header
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #0051C6;
+}
+.headerhome
+{
+    FONT-FAMILY: Verdana, Arial Cyr, Tahoma, Arial;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: #006699;
+}
+.headerwhite1
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 13pt;
+    COLOR: #ffffff;
+}
+.headerwhite
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    COLOR: #ffffff;
+}
+.date
+{
+    FONT-WEIGHT: bold;
+    COLOR: #4185d9;
+}
+.rekv
+{
+    COLOR: #ffffff;
+}
+.enter
+{
+    FONT-SIZE: 11px;
+    COLOR: #2c7ce0;
+}
+.form
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.marg
+{
+    MARGIN: 3px 0px;
+}
+A.small:link
+{
+    FONT-SIZE: 11px;
+    COLOR: #0759be;
+    TEXT-DECORATION: none;
+}
+A.small:visited
+{
+    COLOR: #0051C6;
+    TEXT-DECORATION: none;
+}
+A.small:hover
+{
+    COLOR: #f37239;
+    TEXT-DECORATION: none;
+}
+A.small:active
+{
+    COLOR: #f37239;
+    TEXT-DECORATION: none;
+}
+A.usual:link
+{
+    FONT-SIZE: 11px;
+    COLOR: #2f76f6;
+    TEXT-DECORATION: none;
+}
+A.usual:visited
+{
+    FONT-SIZE: 11px;
+    COLOR: #0051C6;
+    TEXT-DECORATION: none;
+}
+A.usual:hover
+{
+    FONT-SIZE: 11px;
+    COLOR: #89B6F7;
+    TEXT-DECORATION: none;
+}
+A.usual:active
+{
+    FONT-SIZE: 11px;
+    COLOR: #2F76F6;
+    TEXT-DECORATION: none;
+}
+A.white:link
+{
+    COLOR: #ffffff;
+    TEXT-DECORATION: none;
+}
+A.white:visited
+{
+    COLOR: #ffffff;
+    TEXT-DECORATION: none;
+}
+A.white:hover
+{
+    COLOR: #ffffff;
+    TEXT-DECORATION: underline;
+}
+A.white:active
+{
+    COLOR: #ffffff;
+    TEXT-DECORATION: underline;
+}
+A:link
+{
+    COLOR: #2f76f6;
+    TEXT-DECORATION: none;
+}
+A:visited
+{
+    COLOR: #0051C6;
+    TEXT-DECORATION: none;
+}
+A:hover
+{
+    COLOR: #89B6F7;
+    TEXT-DECORATION: underline;
+}
+A:active
+{
+    COLOR: #2f76f6;
+    TEXT-DECORATION: underline;
+}
+.text_all
+{
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+.text_body
+{
+    FONT-SIZE: 12px;
+    COLOR: #272525;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+TR.rowcol
+{
+    BACKGROUND-COLOR: #000000;
+}
+.initial
+{
+    COLOR: #000000;
+    BACKGROUND-COLOR: white;
+	
+}
+.tdd
+{
+width:70%;
+
+}
+.normal
+{
+    BACKGROUND-COLOR: #ffffff;
+}
+.highlight
+{
+    BACKGROUND-COLOR: #FF9900;
+}
+.thead
+{
+    FONT-WEIGHT: bolder;
+    BACKGROUND-COLOR: #EEEEEE ;
+    COLOR:#FFFFFF; 
+}
+.cboAll
+{
+    BORDER: #330000 thin solid;
+}
+.cbotxt
+{
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 8pt;
+  COLOR: #336699;
+}
+.txtAll
+{
+    BORDER: gray 1px solid;
+}
+.butAll
+{
+    BORDER-RIGHT: #ccccff thin outset;
+    BORDER-TOP: #ccccff thin outset;
+    FONT-WEIGHT: bolder;
+    BORDER-LEFT: #ccccff thin outset;
+    WIDTH: 100px;
+    COLOR: white;
+    BORDER-BOTTOM: #ccccff thin outset;
+    HEIGHT: 30px;#007ac2;
+    BACKGROUND-COLOR:#666666; 
+}
+.colon
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 13pt;
+    COLOR: #006699;
+}
+A.menu
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: #0051C6;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none;
+}
+A.menu:hover
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: orange;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none;
+}
+.radBig
+{
+    WIDTH: 15px;
+    HEIGHT: 15px;
+}
+.txtArea
+{
+    BORDER-RIGHT: gray 1px inset;
+    BORDER-TOP: gray 1px inset;
+    BORDER-LEFT: gray 1px inset;
+    BORDER-BOTTOM: gray 1px inset;
+}
+.thTitle
+{
+    FONT-WEIGHT: bolder;
+    BACKGROUND-COLOR: #EEEEEE;
+    TEXT-ALIGN: center;
+}
+.hd1
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 14pt;
+    TEXT-ALIGN: center;
+}
+.hd2
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 13pt;
+    TEXT-ALIGN: center;
+}
+.hd3
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 12pt;
+    TEXT-ALIGN: center;
+}
+.hd4
+{
+    FONT-SIZE: 10pt;
+    font-weight:bolder;
+    TEXT-ALIGN: center;
+}
+.red
+{
+width:100px;
+background-color:#FF0000;
+}
+.yellow
+{
+width:100px;
+background-color:#FFFF66;
+}
+.green
+{
+width:100px;
+background-color:#00CC00;
+}
+.radio_red{
+    padding:5px 1px 1px 1px;
+    background-color:#FF0000;
+}
+.radio_yellow{
+    padding:5px 1px 1px 1px;
+    background-color:#FFFF66;
+}
+.radio_green{
+    padding:5px 1px 1px 1px;
+    background-color:#00CC00;
+}
+#popitmenu
+{
+position: absolute;
+background-color: #ffffff;
+border:solid;
+border-width:1px;
+font: normal 12px Verdana;
+z-index: 1000;
+visibility: hidden;
+padding:0px;
+}
+
+#popitmenu a
+{
+text-decoration: none;
+color: black;
+display: block;
+FONT-SIZE: 11px;
+font-weight:normal;
+
+}
+
+#popitmenu a:hover{ /*hover background color*/
+background-color: #D6E3FF;
+}
+
+.butAnchor
+{
+border:thin solid;
+padding:0px;
+background-color:#DFFDFF;
+}
+.imgclass 
+{
+float:right;
+}
+.tthTitle
+{
+    FONT-WEIGHT: bold;
+     FONT-SIZE: 10pt;
+}
+.fontredheading
+{
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: bold;
+    COLOR: #F73539;
+    FONT-FAMILY: Verdana, Arial Cyr, Tahoma, Arial;
+}
+.fontred
+{
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: bold;
+    COLOR: #F73539;
+    FONT-FAMILY: Verdana, Arial Cyr, Tahoma, Arial;
+}
+.fontgreenheading
+{
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: bold;
+    COLOR: #2C9529;
+    FONT-FAMILY: Verdana, Arial Cyr, Tahoma, Arial;
+}

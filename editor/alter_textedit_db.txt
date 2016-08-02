@@ -1,0 +1,1 @@
+ALTER TABLE `pix_lawyer` ADD `text` MEDIUMTEXT NOT NULL AFTER `time` ;

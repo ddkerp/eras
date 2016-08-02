@@ -1,0 +1,62 @@
+#outerTable
+{
+border:none;
+margin:1px auto;
+height:100%;
+width:100%;
+}
+
+#galleryTable
+{
+
+font-family:verdana, sans-serif;
+font-size:80%
+}
+
+#galleryTable td
+{
+padding:1px
+}
+
+td
+{
+/*border:1px solid; /*rgb(220,230,190);*/
+vertical-align:top
+}
+
+img{border:0}
+
+caption
+{
+background:rgb(0,0,80);
+color:rgb(230,230,240);
+font-size:180%;
+font-family:georgia, serif
+}
+
+.rownumber0 
+{
+background:rgb(210,210,210);
+}
+
+h4
+{
+margin:5px 0
+}
+
+a
+{
+color:navy;
+text-decoration:none
+}
+
+#current
+{
+color:red;
+text-decoration:underline
+}
+
+#form0
+{
+font-size:12px
+}
