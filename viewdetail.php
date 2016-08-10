@@ -186,7 +186,7 @@ $dd1=$data['file1'];
 											</td>
 											<td width="25">
 												<?php if($authority == "Management"){ ?>
-													<a href="delete.php?nam=<?php echo $file; ?>&id=<?php echo $sno; ?>" >
+													<a id="fileDocket" href="delete.php?nam=<?php echo $file; ?>&id=<?php echo $sno; ?>" >
 														<img src="images/Delete.jpg" alt="Delete this file" width="10" height="11" border="0" title="Delete this file">
 													</a>
 												<?php } ?>
@@ -228,7 +228,7 @@ $dd1=$data['file1'];
 											</td>
 											<td width="25">
 												<?php if($authority == "Management"){ ?>
-													<a href="delete.php?file_doc=<?php echo $file_doc; ?>&id=<?php echo $sno; ?>" >
+													<a id="fileDoc" href="delete.php?file_doc=<?php echo $file_doc; ?>&id=<?php echo $sno; ?>" >
 														<img src="images/Delete.jpg" alt="Delete this file" width="10" height="11" border="0" title="Delete this file">
 													</a>
 												<?php } ?>
@@ -298,6 +298,7 @@ $dd1=$data['file1'];
                     </table><table border="0" cellpadding="0" cellspacing="0" width="900">
      <tbody><tr bgcolor="#000000"><td><img src="images/spacer.gif" border="0" height="1" width="745"></td>
 	 </tr></tbody></table>      
+<p id="confirmBox"></p>
 
 <?php include("loginfooter.inc.php"); ?>
 	

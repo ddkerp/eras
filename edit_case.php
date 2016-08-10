@@ -167,7 +167,10 @@ $file_doc=$data['file_doc'];
 						    <input type="hidden" id="removefilename"  name="removefilename" value="<?php echo $file1; ?>"/>
 							<!--<input  type="file"  name="file" id="file" size="38" maxlength="300" value="">-->
 						
-						  <?php } ?><input type="hidden" name="id" value="<?php echo $sno ?>"/><input  type="file"  name="file" id="file" size="38" maxlength="300" value=""></td>
+						  <?php } ?><input type="hidden" name="id" value="<?php echo $sno ?>"/>
+						  <input  type="file"  name="file" id="file" size="38" maxlength="300" value="">
+						  <input type="hidden" name='saved_file' value="<?php echo $file1;?>" />
+						  </td>
                   </tr>
                   <tr>
                     <td colspan="5">&nbsp;</td>
@@ -178,7 +181,8 @@ $file_doc=$data['file_doc'];
                     <td>&nbsp;</td>
 					<td>Upload Doc </td>
                     <td>
-						  <input  type="file"  name="file_doc" id="file" size="38" maxlength="300" value="" accept=".doc,.docx" >
+						  <input  type="file"  name="file_doc" id="file_doc" size="38" maxlength="300" value="" accept=".doc,.docx" >
+						  <input type="hidden" name='saved_file_doc' value="<?php echo $file_doc;?>" />
 					</td>
                   </tr>
                   <tr>
@@ -186,7 +190,7 @@ $file_doc=$data['file_doc'];
                   </tr>
                   <tr>
                     <td colspan="5"><div align="center">
-                        <input name="Submit" type="submit" class="butAll" value="SAVE">
+                        <input name="Submit" id="butt_case_save" type="submit" class="butAll" value="SAVE">
                      <input name="usname" type="hidden" id="usname"  value="<?php echo $uname?>">
                         <label>
                         <input name="CANCEL" type="Button" class="butAll" value="BACK" ONCLICK="history.go(-1)">

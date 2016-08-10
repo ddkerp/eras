@@ -177,7 +177,7 @@ while($row = mysql_fetch_array($result))
 					  <input name="button" type="button" onClick="displayCalendar(document.forms[0].vakalat,'dd.mm.yyyy',this)" value="Cal"></td>
                       <td>&nbsp;</td>
 					  <td><strong>Upload Doc/Docx</strong></td>
-                      <td><input name="file_doc" type="file" id="file" size="25" maxlength="300"></td>
+                      <td><input name="file_doc" type="file" id="file_doc" size="25" maxlength="300"></td>
                     </tr>
                     <tr>
                       <td colspan="5">&nbsp;</td>
@@ -193,7 +193,7 @@ while($row = mysql_fetch_array($result))
                   </table>
                                 <table width="60" border="0" align="center" cellpadding="0" cellspacing="0">
                                   <tr>
-                                    <td><input name="Submit" type='submit' class="butAll"  value='Save'></td>
+                                    <td><input id="butt_case_create" name="Submit" type='submit' class="butAll"  value='Save'></td>
 									<td>
 									<input name="usname" type="hidden" id="usname"  value="<?php echo $uname?>">
 									</td>

@@ -48,6 +48,8 @@ if($_FILES["file"]["name"]!=""){
 	$file = $_FILES["file"]["name"];
 	if (file_exists("upload/$cty/".$_FILES["file"]["name"]))
 	{
+		$msg = 3;
+		header("Location:edit_case.php?id=".$_POST['id']."&msg=".$msg); exit;
 	}else{
 		move_uploaded_file($_FILES["file"]["tmp_name"],"upload/$cty/".$_FILES["file"]["name"] );
 		$sql_file = "`file`='$file',
