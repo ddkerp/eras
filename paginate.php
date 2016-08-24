@@ -44,16 +44,16 @@ include_once("cssscriptlink.inc"); ?>
 <br>
 
 <?php include_once("insideheader2.inc.php"); ?>
-<table align="center" border="0" cellpadding="0" cellspacing="0" width=90%>
+<table  align="center" border="0" cellpadding="0" cellspacing="0" width=90%>
 	<tr>
 		<td>
-			<form name = "frmMain" id = "frmMain" action="javascript:;">
+			<form id="searchResult" name = "frmMain" id = "frmMain" action="javascript:;">
 
 <!-- table contain form elemnts to get user detail -->
 
 				
 
-<table  bgcolor="0330A1" border="0" cellpadding="3" cellspacing="1" align="center" width="80%" > 
+<table   bgcolor="0330A1" border="0" cellpadding="3" cellspacing="1" align="center" width="80%" > 
 											<tr bgcolor="#ffffff">
 															<?php $counn=$_POST['advoc'];
 																 $datee=$_POST['theDate1'];
@@ -299,7 +299,9 @@ else
 <tr class="thead">
 
 <td align = left width = 30%><?php //echo $previous?></td>
-<td align = center ><?php //echo("Goto page " .$cbo ); ?><?php //echo $totRec;?><a href="excel_all.php?dat=<?php echo $_POST['theDate1']; ?>&coun=<?php echo $_POST['advoc']; ?>&h_date=<?php echo $org_Date; ?>">Export</a>
+<td align = center ><?php //echo("Goto page " .$cbo ); ?><?php //echo $totRec;?>
+	<span><a onclick="printByTable()" href="#">Print</a></span> &nbsp; |&nbsp;
+	<span><a href="excel_all.php?dat=<?php echo $_POST['theDate1']; ?>&coun=<?php echo $_POST['advoc']; ?>&h_date=<?php echo $org_Date; ?>">Export</a></span>
 </td>
 <!--<td align = center ><?php //echo("Goto page " .$cbo ); ?>Total <?php //echo $totRec;?> Records Found.</td>-->
 <td align = right width = 30%><?php //echo $next?></td></tr>

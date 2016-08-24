@@ -5,6 +5,20 @@ function anchoring(params){
 function submitting(params){
 	params.form.submit();	
 }
+function printByTable(){
+	var prtContent = document.getElementById("searchResult");
+	var table = prtContent.innerHTML;
+	table = table.replace('border="0"','border="1"');
+	var html ="<html xmlns='http://www.w3.org/1999/xhtml'><head><title>Cause List</title><link rel='stylesheet' type='text/css' href='css/basic.css'></head><body leftmargin='0' topmargin='0' bgcolor='#ebebeb' marginheight='0' marginwidth='0'>";
+	html = html + table;
+	html = html + "</body></html>";
+	var WinPrint = window.open('', '', 'left=0,top=0,width=800,height=900,toolbar=0,scrollbars=0,status=0');
+	WinPrint.document.write(html);
+	WinPrint.document.close();
+	WinPrint.focus();
+	WinPrint.print();
+	WinPrint.close();
+}
 jQuery(document).ready(function() {	
 	function customDialogBase(params){
 		
@@ -59,16 +73,22 @@ jQuery(document).ready(function() {
 	
 	
 	$("#butt_case_create").click(function(){
-		
-		if($('#file').val() == ""){
+		if($('#file').val() == "" && $('#file_doc').val() == ""){
+			var params = {};
+			params.url = this.href;
+			params.func = "submitting";
+			params.descr = "Do you want to save without uploading Docket and Document file";
+			params.form = $( "form:first" );
+			return	customDialogBase(params);
+			
+		}else if($('#file').val() == ""){
 			var params = {};
 			params.url = this.href;
 			params.func = "submitting";
 			params.descr = "Do you want to save without uploading Docket file";
 			params.form = $( "form:first" );
 			return	customDialogBase(params);
-		}
-		if($('#file_doc').val() == ""){
+		}else if($('#file_doc').val() == ""){
 			var params = {};
 			params.url = this.href;
 			params.func = "submitting";
@@ -81,7 +101,14 @@ jQuery(document).ready(function() {
 	
 	$("#butt_case_save").click(function(){
 		var form = this;
-		if($('#file').val() == "" && $('[name="saved_file"]').val() ==""){
+		if($('#file').val() == "" && $('[name="saved_file"]').val() =="" && $('#file_doc').val() == "" && $('[name="saved_file_doc"]').val() == ""){
+			var params = {};
+			params.url = this.href;
+			params.func = "submitting";
+			params.descr = "Do you want to save without uploading Docket and Document file";
+			params.form = $( "form:first" );
+			return	customDialogBase(params);
+		}else if($('#file').val() == "" && $('[name="saved_file"]').val() ==""){
 			var params = {};
 			params.url = this.href;
 			params.func = "submitting";
@@ -89,8 +116,7 @@ jQuery(document).ready(function() {
 			params.form = $( "form:first" );
 			return	customDialogBase(params);
 			
-		}
-		if($('#file_doc').val() == "" && $('[name="saved_file_doc"]').val() == ""){
+		}else if($('#file_doc').val() == "" && $('[name="saved_file_doc"]').val() == ""){
 			var params = {};
 			params.url = this.href;
 			params.func = "submitting";
