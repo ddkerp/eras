@@ -67,7 +67,7 @@ if($fileisValid){
 		move_uploaded_file($_FILES["file_doc"]["tmp_name"], $file_doc_path);
 		$sql_file .= "`file_doc`='$file_doc',";
 		$docObj = new DocxConversion($file_doc_path);
-		$file_doc_text= $docObj->convertToText();
+		$file_doc_text= mysql_real_escape_string(addslashes(trim($docObj->convertToText())));
 		if($file_doc_text != ""){
 			$sql_file .= "`file_doc_text`='$file_doc_text',";
 		}
@@ -96,6 +96,7 @@ $sql .= "`time`=CONCAT(COALESCE(time, ''), '|$uname'),
  //echo $sql;exit;
 if (!mysql_query($sql))
 {
+	unlink($file_doc_path);
 	die('Error: ' . mysql_error());
 }
 else

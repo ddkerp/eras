@@ -34,7 +34,7 @@ if($fileisValid){
 	}else{
 		move_uploaded_file($_FILES["file_doc"]["tmp_name"],$file_doc_path);
 		$docObj = new DocxConversion($file_doc_path);
-		$file_doc_text= $docObj->convertToText();
+		$file_doc_text= mysql_real_escape_string(addslashes(trim($docObj->convertToText())));
 	}
 }	
 	$sql="INSERT INTO pix_lawyer (
@@ -78,6 +78,7 @@ if($fileisValid){
 
 	if (!mysql_query($sql))
 	{
+		unlink($file_doc_path);
 		die('Error: ' . mysql_error());
 	}
 	else
